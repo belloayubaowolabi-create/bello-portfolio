@@ -1029,12 +1029,29 @@ header {
 @media (max-width: 768px) {
 
     .navbar {
-        position: relative;
-    }
+    position: relative;
+    padding: 12px 20px;
+}
 
     .menu-toggle {
-        display: block;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 44px;
+    height: 44px;
+
+    font-size: 24px;
+    padding: 0;
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    background: #ffffff;
+    color: #333;
+
+    cursor: pointer;
+}
 
     .nav-links {
         display: none;
